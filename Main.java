@@ -34,7 +34,7 @@ public class Main {
         System.out.println("Fizzbuzz");
       }else if(START % FIZZ == 0){
         System.out.println("Fizz");
-      }else if(START % BUZZ ==0){
+      }else if(START % BUZZ == 0){
         System.out.println("Buzz");
       }else
       System.out.println(START);
