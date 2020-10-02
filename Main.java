@@ -11,7 +11,7 @@ public class Main {
    */
   public static void main(String[] args) {
 
-    
+
     //Had to redo because I forgot to save before
 
 
@@ -24,17 +24,17 @@ public class Main {
 
     //start, fizz, and buzz variables
     int START = 0;
-    int fizz = 3;
-    int buzz = 5;
+    int FIZZ = 3;
+    int BUZZ = 5;
 
     //Fizzbuzz loop
     while(num > START){
       START = START + 1;
-      if(START % fizz == 0 && START % buzz == 0){
+      if(START % FIZZ == 0 && START % BUZZ == 0){
         System.out.println("Fizzbuzz");
-      }else if(START % fizz == 0){
+      }else if(START % FIZZ == 0){
         System.out.println("Fizz");
-      }else if(START % buzz ==0){
+      }else if(START % BUZZ ==0){
         System.out.println("Buzz");
       }else
       System.out.println(START);
