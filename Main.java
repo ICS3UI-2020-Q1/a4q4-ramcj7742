@@ -31,7 +31,7 @@ public class Main {
     while(num > START){
       START = START + 1;
       if(START % FIZZ == 0 && START % BUZZ == 0){
-        System.out.println("Fizzbuzz");
+        System.out.println("FizzBuzz");
       }else if(START % FIZZ == 0){
         System.out.println("Fizz");
       }else if(START % BUZZ == 0){
